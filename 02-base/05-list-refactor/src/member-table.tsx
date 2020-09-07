@@ -22,7 +22,7 @@ export const MemberTable = () => {
       </thead>
       <tbody>
         {members.map((member) => (
-          <MemberTableRow member={member} />
+          <MemberTableRow key={member.id} member={member} />
         ))}
       </tbody>
     </table>

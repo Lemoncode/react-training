@@ -102,7 +102,7 @@ import { MemberEntity } from './model';
 ```diff
       <tbody>
         {members.map((member) => (
-+          <MemberTableRow member={member}/>
++          <MemberTableRow key={member.id} member={member}/>
 -          <tr>
 -            <td>
 -              <img src={member.avatar_url} style={{ width: "5rem" }} />
