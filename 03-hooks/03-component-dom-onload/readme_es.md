@@ -108,7 +108,7 @@ al código que se ejecutará sólo cuando cambiará la propiedad _username_
 ```tsx
 React.useEffect(() => {
   setUsername("John");
-}, [name]);
+}, [username]);
 ```
 
 Este ejemplo sería un poco tonto porque estamos modificando _username_ dentro
